@@ -5,49 +5,50 @@ export enum HeroTypes {
 }
 
 export interface HeroItens{
-    id: string;
-    name: string;
+    id: string,
+    name: string,
   
     powerstats: {
-      strength: string;
-      speed: string;
-      intelligence: string;
-      durability: string;
-      power: string;
-      combat: string;
-    };
+      strength: string,
+      speed: string,
+      intelligence: string,
+      durability: string,
+      power: string,
+      combat: string
+    },
   
     biography: {
-      "full-name": string;
-      "alter-egos": string;
-      aliases: string[];
-      "place-of-birth": string;
-      publisher: string;
-      "first-appearance": string;
-      alignment: string;
-    };
+      "full-name": string,
+      "alter-egos": string,
+      aliases: string[],
+      "place-of-birth": string,
+      publisher: string,
+      "first-appearance": string,
+      alignment: string
+    },
   
     appearance: {
-      gender: string;
-      race: string;
-      height: string[];
-      weight: string[];
-    };
+      gender: string,
+      race: string,
+      height: string[],
+      weight: string[]
+    },
   
     work: {
-      occupation: string;
-      base: string;
-    };
+      occupation: string,
+      base: string
+    },
   
     connections: {
-      "group-affiliation": string;
-      relatives: string;
-    };
+      "group-affiliation": string,
+      relatives: string
+    },
   
     image: {
-      url: string;
-    };
+      url: string
+    }
   }
+  
 export interface Hero{
     arrayHero: HeroItens[],
     loading: boolean,
