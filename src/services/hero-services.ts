@@ -1,7 +1,7 @@
 import api from "./api"
 
 const HeroService = {
-    getHero: (user: any) => api.get(`${user}`)
+    getHero: (hero: any) => api.get(`${hero}`)
 }
 
 export default HeroService
