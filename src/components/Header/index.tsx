@@ -2,6 +2,7 @@ import React, { useRef } from 'react'
 import { useDispatch } from 'react-redux'
 import { loadHeroRequest } from '../../store/ducks/hero/actions';
 import "../Header/header.css"
+import { Button } from '@material-ui/core'
 
 const Header = () => {
 
@@ -21,7 +22,7 @@ const Header = () => {
             <div>
                 <p>Search for information about your favorite Super Hero!</p>    
                 <input className="hero-imput" type="name" ref={text} />
-                <button onClick={searchHero}>Search</button>
+                <Button color="primary" variant="contained" onClick={searchHero}>Search</Button>
             </div>            
         </div>
     )

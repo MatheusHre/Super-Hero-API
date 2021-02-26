@@ -13,7 +13,7 @@ const HeroPage = () => {
             <Header />
 
 
-            {hero !== null && hero.map((answer: HeroItens) => (
+            {hero !== undefined && hero.map((answer: HeroItens) => (
                 <div className="hero-container" key={answer.id}>
                     <img src={answer.image.url} alt=""/>
                     <p><b>Name:</b> {answer.name}</p>
