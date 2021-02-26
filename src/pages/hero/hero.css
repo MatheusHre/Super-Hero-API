@@ -1,0 +1,20 @@
+.main-container{
+    text-align: center;
+}
+
+.hero-container{
+    width: 40%;
+    margin: 1rem 1rem;
+    justify-content: center;
+    color: black;
+    text-align: center;
+    border-radius: 1rem;  
+    display: inline-table;
+    background-color: cornsilk;  
+}
+
+img {
+    width: 45%;
+    margin-top: 0.8rem;
+    border-radius: 1rem;
+  }
